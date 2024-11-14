@@ -1,0 +1,12 @@
+let element = document.getElementById('target')
+let li1 = document.createElement('li')
+let li2 = document.createElement('li')
+let li3 = document.createElement('li')
+li1.innerText=('First item')
+li2.innerText=('Second item')
+li3.innerText=('Third item')
+element.appendChild(li1)
+element.appendChild(li2)
+element.appendChild(li3)
+
+element.classList.toggle('my-item')
