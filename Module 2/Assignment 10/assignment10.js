@@ -14,7 +14,7 @@ for (let i=0;i<numVoter;i++){
     }
   }
 }
-candidateList.sort((a, b) => a.votes - b.votes)
+candidateList.sort((a, b) => b.votes - a.votes)
 let finalOutput = `The winner is ${candidateList[0].name} with ${candidateList[0].votes} votes.<br>
 results:<br>`
 for (let i=0;i<numCandidate;i++){
